@@ -1,0 +1,22 @@
+.productsList {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid brown;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .productsList {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+details,
+button {
+  cursor: pointer;
+}
+
+summary {
+  user-select: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 440px;
+  }
+}

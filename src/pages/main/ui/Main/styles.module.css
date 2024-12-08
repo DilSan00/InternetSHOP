@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .main {
+    display: grid;
+    gap: 10px;
+  }
+}
