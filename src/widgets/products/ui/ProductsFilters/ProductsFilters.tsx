@@ -7,6 +7,7 @@ import { useState } from "react";
 const ProductsFilters = () => {
   const [isFilterVisible, setIsFilterVisible] = useState<boolean>(false);
 
+  // This is ProductFilters
   return (
     <div className={styles.productsFilters}>
       <button
