@@ -4,9 +4,3 @@
   justify-content: space-between;
   padding: 20px 0;
 }
-
-.profile {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
